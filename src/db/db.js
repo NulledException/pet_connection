@@ -1,5 +1,4 @@
 import { Sequelize } from "sequelize"; // importar o sequelize
-import dotenv from "dotenv/config.js"; // importar o dotenv para localizar as variáveis de ambiente
 
 const dbName = process.env.DB_NAME; // passar os dados do .env para as constantes
 const dbUser = process.env.DB_USER;
